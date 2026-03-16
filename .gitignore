@@ -30,8 +30,11 @@ Thumbs.db
 .env.local
 *.pem
 
-# Temporary
+# Temporary / excluded from repo
 commit_msg.txt
+PUSH_INSTRUCTIONS.md
+nastavni_materijal_sna_md_i_jupyter_6cbdc0f4.plan.md
+Istrazivanja Drustvenih Mreza.docx
 
 # Optional: large data / caches (uncomment if you add big files)
 # data/cache/
