@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+.env
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Secrets (never commit API keys, tokens)
+.env
+.env.local
+*.pem
+
+# Temporary
+commit_msg.txt
+
+# Optional: large data / caches (uncomment if you add big files)
+# data/cache/
+# *.csv.bak

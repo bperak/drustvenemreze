@@ -1,0 +1,35 @@
+# Istraživanja društvenih mreža — Python dependencies
+# Install: pip install -r requirements.txt
+# Python 3.9+ recommended (3.10, 3.11 tested)
+
+# Core: graph analysis and data
+networkx>=3.0
+pandas>=1.5
+
+# Visualization
+matplotlib>=3.6
+plotly>=5.0
+
+# Jupyter environment
+jupyter>=1.0
+jupyterlab>=4.0
+ipykernel>=6.0
+nbformat>=5.0
+
+# Data I/O (Excel, CSV, HTTP)
+openpyxl>=3.0
+requests>=2.28
+
+# Optional: community detection (Chapter 6)
+# Uncomment to use Louvain / community algorithms:
+# python-louvain>=0.16
+# networkx[extra]  # some extra algorithms
+
+# Optional: Twitter/X API (Chapter 14 — use only with your own keys, comply with ToS)
+# Uncomment and set env vars (e.g. TWITTER_BEARER_TOKEN) or .env:
+# tweepy>=4.0
+# python-dotenv>=1.0
+
+# Optional: extra visualization / analysis
+# seaborn>=0.12
+# scipy>=1.10
