@@ -20,7 +20,7 @@ Kampanje i preporuke odvijaju se na **platformama** čiji dizajn nagrađuje odre
 
 ### Zajednice ukusa, scene i „slabi mostovi”
 
-Marketing istraživanja često implicitno pretpostavljaju **homofiliju** — slični se povezuju. U kulturalnim studijama to se čita zajedno s **distinkcijom** (Bourdieu) i s **lokalnim scenama**: mreže preporuka mogu pratiti **subkulturne** ili **niche** zajednice (npr. fanovi žanra, kolekcionari, „bookstagram”, audiofilska zajednica). **Slabi mostovi** (Granovetter) marketing se često koristi za **širenje u nove krugove > mrežna analiza može locirati čvorove koji povezuju inače odvojene guste podmreže — što u kulturološkom jeziku odgovara **križanjima** između scena, jezika ili generacija.
+Marketing istraživanja često implicitno pretpostavljaju **homofiliju** — slični se povezuju. U kulturalnim studijama to se čita zajedno s **distinkcijom** (Bourdieu) i s **lokalnim scenama**: mreže preporuka mogu pratiti **subkulturne** ili **niche** zajednice (npr. fanovi žanra, kolekcionari, „bookstagram”, audiofilska zajednica). **Slabi mostovi** (Granovetter) u marketingu se često koriste za **širenje u nove krugove**; **mrežna analiza** može locirati čvorove koji povezuju inače odvojene guste podmreže — što u kulturološkom jeziku odgovara **križanjima** između scena, jezika ili generacija.
 
 ---
 
