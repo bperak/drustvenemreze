@@ -1,5 +1,6 @@
 """Logika iz bilježnice 10_online_mreze_primjer.ipynb — mock pratnja i kulturni scenarij."""
 import json
+import os
 from pathlib import Path
 
 import networkx as nx
@@ -68,6 +69,7 @@ def test_mock_kulturni_dvije_zajednice():
 
 def test_notebook_10_code_cells_executable():
     """Sve kod-ćelije bilježnice moraju se izvršiti uz zajednički namespace."""
+    os.environ.setdefault("MPLBACKEND", "Agg")
     nb_path = Path(__file__).resolve().parent.parent / "code" / "10_online_mreze_primjer.ipynb"
     nb = json.loads(nb_path.read_text(encoding="utf-8"))
     ns: dict = {}
