@@ -79,4 +79,10 @@ Kada brid nestane, istraživač ne smije pretpostaviti da je „odnos nestao u s
 
 ---
 
+## AI u ovom poglavlju: od klasičnog radnog tijeka prema proširenom razmišljanju
+
+**Klasično:** za svaki vremenski snimak ručno ili skriptom računate mjere i uspoređujete tablice/grafove trenda. **Prošireno:** AI može pomoći **formulirati** što znači porast/pad gustoće ili modularnosti u vašem kontekstu, predložiti način prikaza (small multiples) ili sažeti razlike između dvaju snimaka — ali **snimci i definicija brida** moraju ostati reprodukcijski jasni u metodologiji. Pomak je prema „dinamika kao **niz odluka o segmentaciji vremena** + AI koji pomaže narativu, ne definira segmentaciju”. Vidi [poglavlje 15](15_ai_gemini_u_sna.md).
+
+---
+
 Vidi primjer: [09_dinamika_mreza.ipynb](../code/09_dinamika_mreza.ipynb)

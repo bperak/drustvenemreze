@@ -351,6 +351,12 @@ Ovi primjeri pokazuju da iste mjere (degree, betweenness, closeness, eigenvector
 
 ---
 
+## AI u ovom poglavlju: od klasičnog radnog tijeka prema proširenom razmišljanju
+
+**Klasično:** mjere (degree, betweenness, …) računate u softveru, interpretacija u potpunosti u vašoj glavi i u sekundarnoj literaturi. **Prošireno:** generativni AI pomaže **objasniti** razlike između mjera, predložiti kako ih verbalno usporediti u radu ili kako vizualno kodirati na grafu — ali **izvorne vrijednosti** moraju i dalje proizići iz iste definicije brida i iz provjerenog koda (npr. NetworkX), ne iz „pogode modela”. Pomak je od „brojka je magija” prema „brojka je **rezultat odluke** + AI mi pomaže tu odluku **jasno ispričati** uz citate”. Vidi [poglavlje 15](15_ai_gemini_u_sna.md).
+
+---
+
 **Povezivanje sadržaj ↔ kod**
 
 | Što tražite | Gdje |

@@ -13,6 +13,10 @@ env/
 dist/
 build/
 
+# Plotly HTML izvoz iz bilježnica (generira se pri izvršavanju)
+code/exports/
+exports/
+
 # Jupyter
 .ipynb_checkpoints/
 *.ipynb_checkpoints

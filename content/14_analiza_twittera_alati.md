@@ -63,4 +63,10 @@ Analiza **hrvatskih** (ili srednjoeuropskih) **hashtagova** vezanih uz kulturne 
 
 ---
 
+## AI u ovom poglavlju: od klasičnog radnog tijeka prema proširenom razmišljanju
+
+**Klasično:** X/Twitter mrežu gradite iz API-ja ili arhive, pišete skripte i ručno provjeravate bridove. **Prošireno:** AI može pomoći u **parsiranju** JSON odgovora, u generiranju tablice čvorova ili u sažetku **agregiranih** statistika — ali sadržaj tweetova, korisnička imena i ID-evi često su **osobni podaci** ili osjetljivi u političkom smislu, pa ulazak u javni LLM zahtijeva istu pažnju kao i dijeljenje s bilo kojim vanjskim servisom (pogl. 13). Pomak je od „skripta + ručna bilješka” prema „**skripta + AI za tehnički dio**, interpretacija i etika ostaju ljudski”. Upute za besplatni Gemini ključ i primjer koda: [poglavlje 15](15_ai_gemini_u_sna.md) i [15_ai_gemini_primjer.ipynb](../code/15_ai_gemini_primjer.ipynb).
+
+---
+
 Vidi primjer: [14_twitter_x_primjer.ipynb](../code/14_twitter_x_primjer.ipynb)

@@ -75,4 +75,10 @@ Ovi autori zajedno upozoravaju: struktura veza i položaj aktera objašnjavaju *
 
 ---
 
+## AI u ovom poglavlju: od klasičnog radnog tijeka prema proširenom razmišljanju
+
+**Klasično:** difuzijske metafore i simulacije čitate i programirate uz strogo razlikovanje korelacije i kauzalnosti. **Prošireno:** AI može pomoći u **literaturnom pregledu**, u objašnjenju parametara simulacije ili u pisanju scenarija „što ako” — ali ne smije zamijeniti **empirijski** lanac dokaza niti umanjiti upozorenje o homofiliji i platformskoj pristranosti iz ovog poglavlja. Pomak je prema „brže istražiti **prostor hipoteza**, sporije tvrditi **uzrok**”. Vidi [poglavlje 15](15_ai_gemini_u_sna.md).
+
+---
+
 Vidi primjer: [08_difuzija_utjecaj_primjer.ipynb](../code/08_difuzija_utjecaj_primjer.ipynb)

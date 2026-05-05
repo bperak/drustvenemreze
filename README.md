@@ -1,6 +1,6 @@
 # Istraživanja društvenih mreža (Social Network Analysis)
 
-**Teaching materials for the course *Istraživanja društvenih mreža* (INP)** — theory, code, and examples for Social Network Analysis (SNA) in Croatian. Content covers graph theory, centrality, community detection, visualization, diffusion, ethics, and applications (marketing, policy, Twitter/X).
+**Teaching materials for the course *Istraživanja društvenih mreža* (INP)** — theory, code, and examples for Social Network Analysis (SNA) in Croatian. Content covers graph theory, centrality, community detection, visualization, diffusion, ethics, applications (marketing, policy, Twitter/X), and optional use of **Google Gemini** (generative AI) as a research assistant.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
@@ -24,11 +24,13 @@
 
 This repository contains:
 
-- **14 theory chapters** (Markdown) in `content/` — definitions, key researchers, literature, methods, and interpretation.
-- **14 Jupyter notebooks** in `code/` — executable examples using **NetworkX**, **pandas**, **matplotlib**, and **plotly**.
+- **15 theory chapters** (Markdown) in `content/` — definitions, key researchers, literature, methods, and interpretation.
+- **15 Jupyter notebooks** in `code/` — executable examples using **NetworkX**, **pandas**, **matplotlib**, **plotly**, and (chapter 15) **Google Generative AI** with `.env` for API keys.
 - **Examples** in `examples/` — extended use cases (e.g. *Les Misérables* character co-occurrence for cultural studies) and sample data.
 
 Each chapter links to its notebook and vice versa, so you can read theory and run code side by side.
+
+Every theory chapter (1–15) includes a section **„AI u ovom poglavlju”** on how generative AI fits that topic — from a classical SNA workflow to an extended, critically supervised workflow. [Chapter 15](content/15_ai_gemini_u_sna.md) summarizes this across the syllabus and links to the [Gemini example notebook](code/15_ai_gemini_primjer.ipynb).
 
 ---
 
@@ -36,7 +38,7 @@ Each chapter links to its notebook and vice versa, so you can read theory and ru
 
 ```
 .
-├── content/                    # Theory (14 .md files)
+├── content/                    # Theory (15 .md files)
 │   ├── 01_uvod_drustvene_mreze_teorija_grafova.md
 │   ├── 02_prikupljanje_obrada_podataka.md
 │   ├── 03_mjere_mrezne_strukture.md
@@ -50,8 +52,9 @@ Each chapter links to its notebook and vice versa, so you can read theory and ru
 │   ├── 11_sna_marketing.md
 │   ├── 12_drustvene_mreze_politika.md
 │   ├── 13_kriticko_razmisljanje_ogranicenja.md
-│   └── 14_analiza_twittera_alati.md
-├── code/                       # Jupyter notebooks (14 .ipynb)
+│   ├── 14_analiza_twittera_alati.md
+│   └── 15_ai_gemini_u_sna.md
+├── code/                       # Jupyter notebooks (15 .ipynb)
 │   ├── 01_uvod_grafovi_networkx.ipynb
 │   ├── 02_prikupljanje_podataka_ankete.ipynb
 │   ├── 03_mjere_centralnosti_klasteriranje.ipynb
@@ -65,7 +68,8 @@ Each chapter links to its notebook and vice versa, so you can read theory and ru
 │   ├── 11_marketing_primjer.ipynb
 │   ├── 12_politika_primjer.ipynb
 │   ├── 13_etika_anonimizacija.ipynb
-│   └── 14_twitter_x_primjer.ipynb
+│   ├── 14_twitter_x_primjer.ipynb
+│   └── 15_ai_gemini_primjer.ipynb
 ├── examples/                   # Extended examples and data
 │   ├── data/                   # CSV data (e.g. Les Misérables)
 │   │   ├── les_miserables_edges.csv
@@ -97,6 +101,7 @@ Each chapter links to its notebook and vice versa, so you can read theory and ru
 | 12 | Društvene mreže i politika | [12_drustvene_mreze_politika.md](content/12_drustvene_mreze_politika.md) |
 | 13 | Kritičko razmišljanje i ograničenja | [13_kriticko_razmisljanje_ogranicenja.md](content/13_kriticko_razmisljanje_ogranicenja.md) |
 | 14 | Analiza Twittera/X | [14_analiza_twittera_alati.md](content/14_analiza_twittera_alati.md) |
+| 15 | Generativni AI (Gemini) u SNA-u | [15_ai_gemini_u_sna.md](content/15_ai_gemini_u_sna.md) |
 
 ---
 
@@ -120,6 +125,7 @@ Each chapter has a matching notebook in `code/`:
 | 12 | Politika | [12_politika_primjer.ipynb](code/12_politika_primjer.ipynb) |
 | 13 | Etika i anonimizacija | [13_etika_anonimizacija.ipynb](code/13_etika_anonimizacija.ipynb) |
 | 14 | Twitter/X | [14_twitter_x_primjer.ipynb](code/14_twitter_x_primjer.ipynb) |
+| 15 | Google Gemini + mock SNA | [15_ai_gemini_primjer.ipynb](code/15_ai_gemini_primjer.ipynb) |
 
 ---
 
@@ -177,6 +183,8 @@ See [examples/README.md](examples/README.md) for details.
    ```
    Set credentials via environment variables or `.env` (e.g. `TWITTER_BEARER_TOKEN`); never commit secrets.
 
+6. **Chapter 15 (Google Gemini):** after `pip install -r requirements.txt`, create a free API key in [Google AI Studio](https://aistudio.google.com/) and add `GEMINI_API_KEY=...` to `.env` in the project root. The notebook runs without a key (skips the live API call) but you need the key to try `generate_content`. Never commit `.env`.
+
 ### Run Jupyter
 
 ```bash
@@ -201,7 +209,7 @@ Open notebooks from `code/` or `examples/`. Run cells in order; paths assume you
 
 - **Network theory (outcomes 1–3):** Chapters 1, 3, 5, 6, 8.
 - **Data collection and processing (outcomes 2–4):** Chapters 2, 10, 14.
-- **Programming and tools (outcome 5):** All notebooks in `code/` (Python, NetworkX, pandas, matplotlib, plotly).
+- **Programming and tools (outcome 5):** All notebooks in `code/` (Python, NetworkX, pandas, matplotlib, plotly); chapter 15 adds optional Gemini API use with `.env`.
 
 ---
 

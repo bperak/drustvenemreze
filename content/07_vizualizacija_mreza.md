@@ -519,6 +519,12 @@ U bilježnici uz ovo poglavlje fokusiramo se na **NetworkX + matplotlib** jer je
 
 ---
 
+## AI u ovom poglavlju: od klasičnog radnog tijeka prema proširenom razmišljanju
+
+**Klasično:** Bertin/Tufte + vlastiti izbor boja, layouta i legende temelje se na knjizi i iskustvu. **Prošireno:** AI može predložiti **pristupačniju** paletu, skicu legende ili matplotlib/plotly kod za isti graf — posebno korisno kad trebate brzo više varijanti za radionicu ili članak. Etika prikaza (anonimizacija, retorika „objektivnog” crteža) ostaje na vama (pogl. 13); model ne zna tko je u podatku osjetljiv. Pomak je od „crtam ručno sve varijante” prema „**iteriram vizualno** uz AI, ali zadržavam kritički filter”. Vidi [poglavlje 15](15_ai_gemini_u_sna.md).
+
+---
+
 Vidi primjer: [07_vizualizacija_layouti.ipynb](../code/07_vizualizacija_layouti.ipynb)
 
 ---

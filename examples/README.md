@@ -18,3 +18,7 @@ Bilježnica `kulturologija_mreza_primjer.ipynb`:
 - Interpretira rezultate u smislu kulturologije: položaj u mreži, „mostovi” između grupa, identitet i moć.
 
 **Ovisnosti:** `pandas`, `networkx`, `matplotlib`; opcionalno `plotly` za interaktivni graf (`pip install plotly`).
+
+## AI uz ovaj primjer
+
+Kao i u teorijskim poglavljima, generativni AI može pomoći u **nacrtu interpretacije** likova i mostova — uz iste uvjete: ne slati osjetljive podatke bez etike, provjeriti citate i brojke. Vidi odjeljak **„AI u ovom poglavlju”** u [poglavlju 1](../content/01_uvod_drustvene_mreze_teorija_grafova.md) i cjelinu [poglavlja 15](../content/15_ai_gemini_u_sna.md).

@@ -220,6 +220,12 @@ Ovo poglavlje je uvodno; samu pripremu podataka, odluke o modeliranju (što su �
 
 ---
 
+## AI u ovom poglavlju: od klasičnog radnog tijeka prema proširenom razmišljanju
+
+**Klasični pristup** polazi od toga da istraživač ručno postavlja pojmove (čvor, brid, tip grafa), uči ih iz udžbenika i sam u Pythonu ili Gephi-ju gradi prvi graf. **Prošireni pristup** uvodi generativni AI kao **tutora i partnera za crteže primjera**: model može objasniti razliku između neusmjerenog i usmjerenog grafa, predložiti mini-primjere ili skicu koda — ali **definicije i odluke o modelu** ostaju na vama; AI ne postaje autor teorije grafova. Time se razmišljanje pomakne s „sve moram sam iz memorije” prema „naučiti **provjeravati** prijedloge i precizno ih vezati uz istraživačko pitanje”. Tehnički i etički okvir za API (npr. Gemini) dan je u [poglavlju 15](15_ai_gemini_u_sna.md).
+
+---
+
 ## Povezivanje sadržaj ↔ kod
 
 | Što tražite | Gdje |

@@ -56,4 +56,10 @@ U **NetworkX**-u: `nx.DiGraph()` za usmjereni graf; `G.add_edge(u, v, weight=w)`
 
 ---
 
+## AI u ovom poglavlju: od klasičnog radnog tijeka prema proširenom razmišljanju
+
+**Klasično:** smjer i težinu ručno operacionalizirate (što znači brid), zatim pažljivo birate funkcije u softveru. **Prošireno:** AI može predložiti **ispravan** NetworkX poziv za vašu operacionalizaciju, upozoriti na asimetriju (in vs out) ili pomoći interpretirati zašto je jedan čvor „izlazni hub” — ali **semantika veze** (npr. retweet vs follow) ostaje vaša odluka iz metodologije. Pomak je od „ući u dokumentaciju sam” prema „**brže navigirati** dokumentaciju i greške uz AI, uz vlastiti test na malom grafu”. Vidi [poglavlje 15](15_ai_gemini_u_sna.md).
+
+---
+
 Vidi primjer: [05_usmjerene_tezinske_mreze.ipynb](../code/05_usmjerene_tezinske_mreze.ipynb)

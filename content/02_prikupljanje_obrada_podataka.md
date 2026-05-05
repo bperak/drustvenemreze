@@ -130,4 +130,10 @@ Obrada podataka vodi do konkretnih rezultata: tablice mjera (centralnost, gusto�
 
 ---
 
+## AI u ovom poglavlju: od klasičnog radnog tijeka prema proširenom razmišljanju
+
+U **klasičnom** tijeku prikupljanja podataka istraživač ručno kodira odnose iz anketa, transkripata ili tablica. **Prošireni** tijek dodaje AI za **ekstrakciju entiteta i relacija** iz teksta, normalizaciju imena, prijedlog sheme čišćenja u pandasu — uz obveznu **ljudsku validaciju** i dokumentaciju: što je model predložio, što ste odbacili i zašto. Razmišljanje se pomakne od „jedan entitet = jedan ručni unos” prema „**poluautomatska** obrada + jasna pravila provjere kvalitete”, što je posebno važno kad iz teksta nastaje **brid** u grafu (pogrešan brid = pogrešna cijela analiza). Za primjer API-ja i `.env` vidi [poglavlje 15](15_ai_gemini_u_sna.md).
+
+---
+
 Vidi primjer u skripti: [02_prikupljanje_podataka_ankete.ipynb](../code/02_prikupljanje_podataka_ankete.ipynb) — ili postojeći **Perak_Network_2.ipynb** (Google Forms → mreža).

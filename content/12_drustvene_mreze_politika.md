@@ -45,4 +45,10 @@ Politološka i komunikacijska literatura o **medijima**, **političkom ponašanj
 
 ---
 
+## AI u ovom poglavlju: od klasičnog radnog tijeka prema proširenom razmišljanju
+
+**Klasično:** političku mrežu gradite iz retweetova/mentiona, interpretirate echo chambere i mostove uz literaturu. **Prošireno:** AI može sažeti **javno dostupne** opise strukture ili pomoći u kodiranju grafa, ali ne smije zamijeniti **oprez** pri identifikaciji osoba, prijetnjama ili dezinformacijama — posebno ako u prompt ulaze izvodi iz mreže koji bi mogli doxati sudionike. Pomak je prema „brže organizirati **argumentaciju** i hipoteze”, ne „automatski etiketirati ljude”. Vidi [poglavlje 15](15_ai_gemini_u_sna.md).
+
+---
+
 Vidi primjer: [12_politika_primjer.ipynb](../code/12_politika_primjer.ipynb)

@@ -496,6 +496,12 @@ U bilježnici uz ovo poglavlje (`06_detekcija_zajednica.ipynb`) dan je primjer n
 
 ---
 
+## AI u ovom poglavlju: od klasičnog radnog tijeka prema proširenom razmišljanju
+
+**Klasično:** algoritam (Louvain, Girvan–Newman, …) pokrećete vi, modularnost i particiju tumačite uz literaturu. **Prošireno:** AI može pomoći **usporediti algoritme u riječima**, predložiti strukturu odjeljka „Rezultati” ili generirati hipoteze zašto je neka particija smislena u kulturnom kontekstu — ali **broj particija, Q i stabilnost** moraju proizići iz koda i podataka, ne iz uvjerljivog teksta modela. Pomak je prema „detekcija zajednica + **refleksivni sloj** koji pišem uz asistenciju, a ne umjesto provjere”. Vidi [poglavlje 15](15_ai_gemini_u_sna.md).
+
+---
+
 ## Veze s drugim poglavljima
 
 - **Poglavlje 3 (Mjere mrežne strukture)**: Modularnost je jedna od mjera klasteriranja; betweenness centralnost (pogl. 3) koristi se u Girvan–Newman algoritmu za identifikaciju mostova između zajednica.

@@ -46,4 +46,10 @@ Rezultate SNA treba **interpretirati uz napomenu o granicama**: za koju populaci
 
 ---
 
+## AI u ovom poglavlju: od klasičnog radnog tijeka prema proširenom razmišljanju
+
+**Klasično:** ograničenja SNA (granice mreže, kauzalnost, etika) čitate kao **obvezu** prema ispitanicima i čitateljima. **Prošireno:** generativni AI uvodi **novi sloj rizika** — svaki prompt koji sadrži podatke o mreži može značiti dijeljenje s trećom stranom; model može „glatko” sakriti nepoznanicu ili izmisliti citat. Kritičko razmišljanje se stoga širi: ne samo „što graf ne zna”, nego i **„što AI ne smije znati o mom uzorku”**, treba li etičko povjerenstvo i kako transparentno prijaviti korištenje alata u metodologiji. Ovo poglavlje i [poglavlje 15](15_ai_gemini_u_sna.md) zajedno čine **most** između klasične odgovornosti istraživača i suvremenog radnog tijeka s API-jem.
+
+---
+
 Vidi primjer: [13_etika_anonimizacija.ipynb](../code/13_etika_anonimizacija.ipynb)

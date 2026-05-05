@@ -110,4 +110,10 @@ Za **vizualizaciju** i interpretaciju u nastavi često se koriste `matplotlib` i
 
 ---
 
+## AI u ovom poglavlju: od klasičnog radnog tijeka prema proširenom razmišljanju
+
+**Klasično:** online mrežu shvaćate kao kombinaciju API-ja, etike i ručno pisanog koda koji reproducira graf. **Prošireno:** generativni AI (npr. **Google Gemini**, v. [poglavlje 15](15_ai_gemini_u_sna.md)) može ubrzati **skicu interpretacije** agregiranih ili mock mjera, pomoći u pisanju upita za kvalitativno čitanje uz graf ili u objašnjavanju promjena ToS/API-ja — uz strogo pravilo: **ne slati** u javni API sirove osobne podatke ili sadržaje bez etičke i pravne procjene (pogl. 13). Pomak je od „platforma je samo izvor podataka” prema „platforma + **AI kao vanjski sloj** koji mora biti vidljiv u metodologiji”. Praktičan primjer s ključem iz Google AI Studio nalazi se u [15_ai_gemini_primjer.ipynb](../code/15_ai_gemini_primjer.ipynb).
+
+---
+
 Vidi primjer: [10_online_mreze_primjer.ipynb](../code/10_online_mreze_primjer.ipynb)

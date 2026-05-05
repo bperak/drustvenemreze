@@ -75,4 +75,12 @@ Za **kulturalne studije i medijske studije** korisni su teorijski okviri koji **
 2. **Razlikovanje mjera** — degree, betweenness i eigenvector odgovaraju različitim **kulturnim ulogama** (glasnoća unutar grupe vs. broker između grupa vs. povezanost s elitom mreže).
 3. **Ograničenje tvrdnji** — mreža je **jedan sloj**; etika, algoritam, ekonomija rada i diskurs ostaju neophodni za tumačenje.
 
+---
+
+## AI u ovom poglavlju: od klasičnog radnog tijeka prema proširenom razmišljanju
+
+**Klasično:** marketing mrežu čitate kroz mjere i kritiku metrike (reach, engagement) bez automatiziranog „glatkog” teksta. **Prošireno:** AI može brzo pretvoriti tablicu centralnosti u **nacrt** pitcha ili izvještaja za klijenta — što povećava rizik **fetišizacije brojke** ako se tekst objavi bez konteksta iz ovog poglavlja. Dobro korištenje znači: AI piše **prvi nacrt**, vi dodajete ironiju publike, algoritamsku neprozirnost i ograničenje tvrdnji. Vidi [poglavlje 15](15_ai_gemini_u_sna.md).
+
+---
+
 Vidi primjer: [11_marketing_primjer.ipynb](../code/11_marketing_primjer.ipynb)

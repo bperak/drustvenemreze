@@ -71,4 +71,10 @@ Tipični rezultati uključuju **indekse gustoće** (koliko je mreža povezana), 
 
 ---
 
+## AI u ovom poglavlju: od klasičnog radnog tijeka prema proširenom razmišljanju
+
+**Klasično:** bonding/bridging ostaju čisto teorijski pojmovi koje povezujete s ručno crtanim ili programski izračunatim mrežama. **Prošireno:** AI može pomoći u **kategorizaciji** tipova veza iz otvorenih odgovora ankete, u sažetku što mreža „govori” o pristupu resursima ili u predlošku pasusa koji **ne smije** zamijeniti teorijski okvir (Granovetter, Burt) niti citate. Pomak je prema „**dva kanala** istovremeno — mjera iz grafa + jezična obrada pomoću modela uz eksplicitnu provjeru”. Uvjeti za API i etiku vidi [poglavlje 15](15_ai_gemini_u_sna.md).
+
+---
+
 Vidi primjer: [04_socijalni_kapital_primjer.ipynb](../code/04_socijalni_kapital_primjer.ipynb)
